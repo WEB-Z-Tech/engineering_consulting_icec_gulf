@@ -20,7 +20,7 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <nav className="2xl:bg-blue-50 xl:bg-red-600 lg:bg-green-600 md:bg-gray-600 sm:bg-pink-400 bg-orange-400 p-4 fixed top-0 left-0 w-full z-50 shadow-md">
+    <nav className="bg-blue-50 p-4 fixed top-0 left-0 w-full z-50 shadow-md">
       <div className="container mx-auto flex justify-between items-center md:mr-36">
         <Link
           href="#"

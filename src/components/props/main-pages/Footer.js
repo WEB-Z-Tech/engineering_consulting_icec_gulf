@@ -1,7 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { FaLinkedin, FaYoutube } from "react-icons/fa";
+import { FaLinkedin, FaYoutube,FaPhoneAlt, FaEnvelope, FaGlobe  } from "react-icons/fa";
 import { Link } from "react-router-dom";
+
 
 const Footer = ({ footerContainerClassName }) => {
   return (
@@ -72,10 +73,19 @@ const Footer = ({ footerContainerClassName }) => {
               FIND US
             </h4>
             <ul className="space-y-2 text-sm sm:text-base">
-              <li className="hover:underline text-gray-400">
-                info@icecgulf.com
-              </li>
-            </ul>
+  <li className="hover:underline text-gray-400 flex items-center">
+    <FaPhoneAlt className="mr-2" />
+    +971 4 386 2888
+  </li>
+  <li className="hover:underline text-gray-400 flex items-center">
+    <FaEnvelope className="mr-2" />
+    info@icecgulf.com
+  </li>
+  <li className="hover:underline text-gray-400 flex items-center">
+    <FaGlobe className="mr-2" />
+    www.icecgulf.com
+  </li>
+</ul>
           </div>
 
           {/* Stay Connected */}
@@ -107,7 +117,11 @@ const Footer = ({ footerContainerClassName }) => {
                 className="w-16 sm:w-20  filter grayscale"
               />
             </div>
+            <img src="/assets/qr-code-img.png" className="w-1/2 relative top-3"/>
           </div>
+
+          
+
         </div>
         <div className=" relative top-6 text-gray-400 border-t border-gray-400 pt-12 xl:pt-8 2xl:pt-8 lg:pt-8 md:pt-8 sm:pt-8 text-start text-sm">
           All rights reserved © ICECGULF

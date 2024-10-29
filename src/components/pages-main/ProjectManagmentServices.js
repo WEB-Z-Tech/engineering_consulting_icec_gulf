@@ -7,9 +7,9 @@ import ProjectRisk from "../props/body-components/ProjectRisk";
 import ForensicShedule from "../props/body-components/ForensicShedule";
 import ProcessSystemDevelopment from "../props/body-components/ProcessSystemDevelopment";
 import Traning from "../props/body-components/Traning";
-import Vishualize from "../props/body-components/Vishualize";
-import MepConsultancy from "../props/body-components/MepConsultancy";
-import TechnicalTraning from "../props/body-components/TechnicalTraning";
+import ClaimManagement from "../props/body-components/ClaimManagement";
+import ServicesManagement from "../props/body-components/ServiceManagement";
+import Strength from "../props/body-components/Strength";
 
 const ProjectMnagementServices = () => {
   return (
@@ -25,6 +25,14 @@ const ProjectMnagementServices = () => {
         button2="Get a Quote +"
         mainTextClassName="2xl:text-9xl xl:text-[110px] 2xl:ml-16 xl:mt-3 xl:ml-16 2xl:mb-4 xl:mb-4 lg:ml-16 tracking-wide"
       />
+      {/* SERVICES MANAGEMENT SERVICES */}
+     <ServicesManagement/>
+      
+      {/* CLAIM MANAGEMENT SERVICES */}
+      <ClaimManagement/>
+
+        {/* Strength MANAGEMENT SERVICES */}
+        <Strength/>
 
       {/* PROJECT MANAGEMENT SERVICES */}
       <ProjectManage />
